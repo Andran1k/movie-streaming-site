@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.Main {
+    background: black;
+}
+
+.Movies {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Movie_Lists {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.Movie_item {
+    width: 19%;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #1B1A1D;
+}
+
+.Movie_img {
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.Movie_info {
+    color: white;
+    height: 70px;
+    padding: 5px;
+}
+
+.Movie_info span {
+    font-size: 14px;
+}
