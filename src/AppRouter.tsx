@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from 'react-router-dom'
-import Auth from "../pages/Auth";
-import HomepageRoutes from "./Main/HomepageRoutes";
+import Auth from "./pages/Auth";
+import HomepageRoutes from "./pages/Hompage/HomepageRoutes";
 
 const AppRouter = () => (
     <Routes>

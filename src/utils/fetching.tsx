@@ -1,5 +1,4 @@
 import axios from "axios";
-import {MovieTypes} from "../../getTypes";
 
 const KEY = '30374d93788ff5494fd5e7e5b43d5f17'
 
